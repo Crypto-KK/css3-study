@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a[title$="6"] {
+            color: red;
+        }
+
+        input[value*="文"] {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<a href="#" title="123">123</a>
+<a href="#" title="456">456</a>
+<a href="#">123</a>
+
+
+<input type="text" value="文本框">
+<input type="submit">
+</body>
+</html>
